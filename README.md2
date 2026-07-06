@@ -1,0 +1,15 @@
+# Phishing Email Detection Model
+
+A text-classification machine learning system built using Python and Scikit-learn. The model processes textual data, extracts critical semantic patterns and URL features, and applies statistical classification to filter dangerous phishing attempts from legitimate communication.
+
+## 🚀 Key Features Implemented
+* **Feature Extraction:** Utilizes `TfidfVectorizer` to tokenize email content, strip common stop words, and compute term importance frequencies.
+* **Supervised Learning Classifier:** Implements a Multinomial Naive Bayes (`MultinomialNB`) algorithm optimal for text analytics.
+* **Performance Matrix:** Displays automated model metrics including raw operational accuracy scoring and an explicit text-based Confusion Matrix.
+* **Interactive Testing Terminal:** Allows users to input customized strings or fake links to evaluate safety thresholds live.
+
+## 🛠️ Requirements & Execution
+1. Install Scikit-learn dependencies:
+   ```bash
+   pip install scikit-learn
+   
